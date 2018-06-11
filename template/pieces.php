@@ -11,37 +11,41 @@ if(isset($page_params[0]) && is_numeric($page_params[0]) && ((846 <= $page_param
 	//Get the parts selector data.
 	$prelude_parts = get_parts_data($piece['prelude']['type']);
 	$fugue_parts = get_parts_data($piece['fugue']['type']);
-	$instruments = get_instruments();
-	?>
+	$instruments = get_instruments(); ?>
 	<div class="container text-center">
 		<h2>Prelude and Fugue in <?php echo $piece['key']; ?>, BWV<?php echo $piece['bwv']; ?></h2>
 		<h4 class="text-faded">Well-Tempered Clavier, Book <?php echo($piece['book'] == 1 ? 'I' : 'II'); ?></h4>
-		<div class="row text-left text-white">
-			<div class="col-xs-4">
-				<img class="score-page" src="<?php echo $image_src; ?>" alt="Score Page">
-			</div>
-			<div class="col-xs-2">
-				<h5 class>Prelude: <?php echo $piece['prelude']['type']; ?></h5>
-				<?php foreach($prelude_parts as $part_num => $part) {
-					//Parts selectors
-					echo '<h6>Part ' . $part_num . '</h6>';
-					echo '<ul>';
-					foreach($part as $part_inst) {
-						echo '<li>' . $part_inst . '</li>';
-					}
-					echo '</ul>';
-				} ?>
-				<h5 class>Fugue: <?php echo $piece['fugue']['type']; ?></h5>
-				<?php foreach($fugue_parts as $part_num => $part) {
-					//Parts selectors
-					echo '<h6>Part ' . $part_num . '</h6>';
-					echo '<ul>';
-					foreach($part as $part_inst) {
-						echo '<li>' . $part_inst . '</li>';
-					}
-					echo '</ul>';
-				} ?>
-			</div>
+		<div class="row text-center">
+            <img class="score-page" src="<?php echo $image_src; ?>" alt="Score Page">
+        </div>
+        <div class="row text-left text-white">
+            <div class="col-md-4">
+                <h5 class>Prelude: <?php echo $piece['prelude']['type']; ?></h5>
+                <?php foreach($prelude_parts as $part_num => $part) {
+                    //Parts selectors
+                    echo '<h6>Part ' . $part_num . '</h6>';
+                    echo '<ul class="part-list" data-part="' . $part_num . '">';
+                    foreach($part as $part_inst) {
+                        echo '<li class="instrument">' . $part_inst . '</li>';
+                    }
+                    echo '</ul>';
+                } ?>
+            </div>
+            <div class="col-md-4">
+                <h5 class>Fugue: <?php echo $piece['fugue']['type']; ?></h5>
+                <?php foreach($fugue_parts as $part_num => $part) {
+                    //Parts selectors
+                    echo '<h6>Part ' . $part_num . '</h6>';
+                    echo '<ul class="part-list" data-part="' . $part_num . '">';
+                    foreach($part as $part_inst) {
+                        echo '<li class="instrument">' . $part_inst . '</li>';
+                    }
+                    echo '</ul>';
+                } ?>
+            </div>
+            <div class="col-md-4">
+                <span class="price">Price: </span>
+            </div>
 		</div>
 		<a href="<?php echo $site_url; ?>pieces">Back to Pieces</a>
 	</div>
@@ -92,6 +96,7 @@ else {
 }
 
 echo '</section>';
+echo '<script>partsPriceCalc();</script>';
 
 debug_print($page_request);
 debug_print($page_params);
