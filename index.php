@@ -25,6 +25,10 @@ $menu_pages = [
 		'title' => 'Build'
 	],
 	[
+		'link' => 'pieces',
+		'title' => 'Pieces'
+	],
+	[
 		'link' => 'contact',
 		'title' => 'Contact'
 	]
