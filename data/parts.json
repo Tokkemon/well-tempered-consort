@@ -1,0 +1,164 @@
+[
+	{
+		"label": "duet",
+		"parts": {
+			"1": [
+				"fl",
+				"ob",
+				"vln",
+				"cl",
+				"tpt",
+				"asax"
+			],
+			"2": [
+				"hn",
+				"asax",
+				"vla",
+				"tsax",
+				"bscl",
+				"bsn",
+				"tbn",
+				"euph",
+				"euphtc",
+				"tba",
+				"vc",
+				"db",
+				"bsax"
+			]
+		}
+	},
+	{
+		"label": "trio",
+		"parts": {
+			"1": [
+				"fl",
+				"ob",
+				"vln",
+				"cl",
+				"asax",
+				"tpt"
+			],
+			"2": [
+				"cl",
+				"tpt",
+				"asax",
+				"hn",
+				"vla",
+				"tsax",
+				"bsn",
+				"tbn",
+				"euph",
+				"euphtc"
+			],
+			"3": [
+				"tsax",
+				"bscl",
+				"bsn",
+				"tbn",
+				"euph",
+				"euphtc",
+				"tba",
+				"vc",
+				"db",
+				"bsax"
+			]		
+		}
+	},
+	{
+		"label": "quartet",
+		"parts": {
+			"1": [
+				"fl",
+				"ob",
+				"vln",
+				"cl",
+				"tpt",
+				"asax"
+			],
+			"2": [
+				"fl",
+				"ob",
+				"vln",
+				"cl",
+				"asax",
+				"tpt",
+				"hn"
+			],
+			"3": [
+				"tsax",
+				"bscl",
+				"bsn",
+				"hn",
+				"vla",
+				"tbn",
+				"euph",
+				"euphtc"
+			],
+			"4": [
+				"tsax",
+				"bscl",
+				"bsn",
+				"tbn",
+				"euph",
+				"euphtc",
+				"tba",
+				"vc",
+				"db",
+				"bsax"
+			]
+		}
+	},
+	{
+		"label": "quintet",
+		"parts": {
+			"1": [
+				"fl",
+				"ob",
+				"vln",
+				"cl",
+				"asax",
+				"tpt"
+			],
+			"2": [
+				"fl",
+				"ob",
+				"vln",
+				"cl",
+				"asax",
+				"tpt",
+				"hn"
+			],
+			"3": [
+				"cl",
+				"hn",
+				"asax",
+				"vla",
+				"tsax",
+				"trb",
+				"euph",
+				"euphtc"
+			],
+			"4": [
+				"tsax",
+				"bscl",
+				"bsn",
+				"tbn",
+				"euph",
+				"euphtc",
+				"vc",
+				"bsax"
+			],
+			"5": [
+				"bscl",
+				"bsn",
+				"tbn",
+				"euph",
+				"euphtc",
+				"tba",
+				"vc",
+				"db",
+				"bsax"
+			]
+		}
+	}
+]

@@ -1,0 +1,46 @@
+[
+	{
+		"label": "Saxophone Quartet",
+		"part": 4,
+		"instruments": [
+			{
+				"instrument": "asax",
+				"ordinal": 1
+			},
+			{
+				"instrument": "asax",
+				"ordinal": 2
+			},
+			{
+				"instrument": "tsax",
+				"ordinal": 0
+			},
+			{
+				"instrument": "bsax",
+				"ordinal": 0
+			}
+		]
+	},
+	{
+		"label": "Brass Quartet",
+		"part": 4,
+		"instruments": [
+			{
+				"instrument": "tpt",
+				"ordinal": 0
+			},
+			{
+				"instrument": "hn",
+				"ordinal": 0
+			},
+			{
+				"instrument": "tbn",
+				"ordinal": 0
+			},
+			{
+				"instrument": "tba",
+				"ordinal": 0
+			}
+		]
+	}
+]

@@ -1,0 +1,488 @@
+{
+	"1": [
+		{
+			"key": "C major",
+			"bwv": 846,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "C minor",
+			"bwv": 847,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "C# major",
+			"bwv": 848,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{	
+			"key": "C# minor",
+			"bwv": 849,
+			"prelude": {
+				"type":"Quintet"
+			},
+			"fugue": {
+				"type":"Quintet"
+			}
+		},
+		{
+			"key": "D major",
+			"bwv": 850,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "D minor",
+			"bwv": 851,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "Eb major",
+			"bwv": 852,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "Eb minor",
+			"bwv": 853,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "E major",
+			"bwv": 854,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "E minor",
+			"bwv": 855,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Duet"
+			}
+		},
+		{
+			"key": "F major",
+			"bwv": 856,
+			"prelude": {
+				"type":"Duet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "F minor",
+			"bwv": 857,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "F# major",
+			"bwv": 858,
+			"prelude": {
+				"type":"Duet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "F# minor",
+			"bwv": 859,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "G major",
+			"bwv": 860,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "G minor",
+			"bwv": 861,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "Ab major",
+			"bwv": 862,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "G# minor",
+			"bwv": 863,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "A major",
+			"bwv": 864,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "A minor",
+			"bwv": 865,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "Bb major",
+			"bwv": 866,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "Bb minor",
+			"bwv": 867,
+			"prelude": {
+				"type":"Quintet"
+			},
+			"fugue": {
+				"type":"Quintet"
+			}
+		},
+		{
+			"key": "B major",
+			"bwv": 868,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "B minor",
+			"bwv": 869,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		}
+	],
+	"2": [
+		{
+			"key": "C major",
+			"bwv": 870,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "C minor",
+			"bwv": 871,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "C# major",
+			"bwv": 872,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{	
+			"key": "C# minor",
+			"bwv": 873,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "D major",
+			"bwv": 874,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "D minor",
+			"bwv": 875,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "Eb major",
+			"bwv": 876,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "Eb minor",
+			"bwv": 877,
+			"prelude": {
+				"type":"Duet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "E major",
+			"bwv": 878,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "E minor",
+			"bwv": 879,
+			"prelude": {
+				"type":"Duet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "F major",
+			"bwv": 880,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "F minor",
+			"bwv": 881,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "F# major",
+			"bwv": 882,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "F# minor",
+			"bwv": 883,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "G major",
+			"bwv": 884,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "G minor",
+			"bwv": 885,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "Ab major",
+			"bwv": 886,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "G# minor",
+			"bwv": 887,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "A major",
+			"bwv": 888,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "A minor",
+			"bwv": 889,
+			"prelude": {
+				"type":"Duet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "Bb major",
+			"bwv": 890,
+			"prelude": {
+				"type":"Quartet"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		},
+		{
+			"key": "Bb minor",
+			"bwv": 891,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "B major",
+			"bwv": 892,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Quartet"
+			}
+		},
+		{
+			"key": "B minor",
+			"bwv": 893,
+			"prelude": {
+				"type":"Trio"
+			},
+			"fugue": {
+				"type":"Trio"
+			}
+		}
+	]
+}
+
+	
