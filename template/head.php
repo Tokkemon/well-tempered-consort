@@ -24,17 +24,24 @@
     <!-- Bootstrap core JavaScript -->
     <script src="<?php echo $site_url; ?>vendor/jquery/jquery.min.js"></script>
 
-    <!-- Plugin CSS -->
+      <!-- jQuery UI Stuff -->
+      <script src="<?php echo $site_url; ?>vendor/jquery-ui/jquery-ui.min.js"></script>
+      <link href="<?php echo $site_url; ?>vendor/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+      <link href="<?php echo $site_url; ?>vendor/jquery-ui/jquery-ui.structure.min.css" rel="stylesheet">
+      <link href="<?php echo $site_url; ?>vendor/jquery-ui/jquery-ui.theme.min.css" rel="stylesheet">
+
+      <!-- Plugin CSS -->
     <link href="<?php echo $site_url; ?>vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="<?php echo $site_url; ?>css/creative.min.css" rel="stylesheet">
-	
-	<!-- Custom styles for this site -->
+
+    <!-- Custom styles for this site -->
     <link href="<?php echo $site_url; ?>css/styles.css" rel="stylesheet">
 
     <!-- Custom scripts for this site -->
     <script src="<?php echo $site_url; ?>js/general.js"></script>
+    <script src="<?php echo $site_url; ?>js/build.js"></script>
 
   </head>
 

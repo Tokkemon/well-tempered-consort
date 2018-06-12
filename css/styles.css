@@ -7,7 +7,7 @@
     padding: 0;
 
 }
-.instrument {
+ul.part-list li.instrument {
     background-color: #f8f8f8;
     color: #0b0b0b;
     list-style: none;
@@ -18,4 +18,28 @@
     background-color: #9b27f8;
     color: #ffffff;
 
+}
+
+div.instrument-section div.instrument img {
+    cursor: pointer;
+}
+
+div.dropplaces div.dropplace {
+    height: 200px;
+    min-width: 200px;
+    background-color: #292929;
+    border: 3px dashed #9b9b9b;
+    margin: 5px;
+}
+
+.faded {
+    background-color: rgba(41, 41, 41, 0.50) !important;
+    border: 3px dashed rgba(155, 155, 155, 0.50) !important;
+    color: rgba(255, 255, 255, 0.50) !important;
+}
+
+.part-valid {
+    background-color: rgba(0, 151, 14, 0.5) !important;
+    border: 3px dashed rgba(6, 64, 15, 0.5) !important;
+    color: rgba(255, 255, 255, 0.50) !important;
 }

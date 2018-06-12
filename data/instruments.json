@@ -2,91 +2,127 @@
 	{
 		"id": "fl",
 		"label": "Flute",
-		"transposition": "C"
+		"transposition": "C",
+		"section":"woodwinds",
+		"icon":"018-flute-1.svg"
 	},
 	{
 		"id": "ob",
 		"label": "Oboe",
-		"transposition": "C"
+		"transposition": "C",
+		"section":"woodwinds",
+		"icon":"008-oboe.svg"
 	},
 	{
 		"id": "cl",
 		"label": "Clarinet",
-		"transposition": "Bb"
+		"transposition": "Bb",
+		"section":"woodwinds",
+		"icon":"031-clarinet.svg"
 	},
 	{
 		"id": "bscl",
 		"label": "Bass Clarinet",
-		"transposition": "Bb"
+		"transposition": "Bb",
+		"section":"woodwinds",
+		"icon":"006-vuvuzela.svg"
 	},
 	{
 		"id": "bsn",
 		"label": "Bassoon",
-		"transposition": "C"
+		"transposition": "C",
+		"section":"woodwinds",
+		"icon":"022-bassoon.svg"
 	},
 	{
 		"id": "asax",
 		"label": "Alto Saxophone",
-		"transposition": "Eb"
+		"transposition": "Eb",
+		"section":"woodwinds",
+		"icon":"046-saxophone.svg"
 	},
 	{
 		"id": "tsax",
 		"label": "Tenor Saxophone",
-		"transposition": "Bb"
+		"transposition": "Bb",
+		"section":"woodwinds",
+		"icon":"046-saxophone.svg"
 	},
 	{
 		"id": "bsax",
 		"label": "Baritone Saxophone",
-		"transposition": "Eb"
+		"transposition": "Eb",
+		"section":"woodwinds",
+		"icon":"046-saxophone.svg"
 	},
 	{
 		"id": "tpt",
 		"label": "Trumpet",
-		"transposition": "Bb"
+		"transposition": "Bb",
+		"section":"brass",
+		"icon":"034-trumpet.svg"
 	},
 	{
 		"id": "hn",
 		"label": "Horn",
-		"transposition": "F"
+		"transposition": "F",
+		"section":"brass",
+		"icon":"041-horn.svg"
 	},
 	{
 		"id": "tbn",
 		"label": "Trombone",
-		"transposition": "C"
+		"transposition": "C",
+		"section":"brass",
+		"icon":"025-trombone.svg"
 	},
 	{
 		"id": "euph",
 		"label": "Euphonium",
-		"transposition": "C"
+		"transposition": "C",
+		"section":"brass",
+		"icon":"021-tuba.svg"
 	},
 	{
 		"id": "euphtc",
 		"label": "Euphonium T.C.",
-		"transposition": "Bb"
+		"transposition": "Bb",
+		"section":"brass",
+		"icon":"021-tuba.svg"
 	},
 	{
 		"id": "tba",
 		"label": "Tuba",
-		"transposition": "C"
+		"transposition": "C",
+		"section":"brass",
+		"icon":"021-tuba.svg"
 	},
 	{
 		"id": "vln",
 		"label": "Violin",
-		"transposition": "C"
+		"transposition": "C",
+		"section":"strings",
+		"icon":"048-violin.svg"
 	},
 	{
 		"id": "vla",
 		"label": "Viola",
-		"transposition": "C"
+		"transposition": "C",
+		"section":"strings",
+		"icon":"004-viola.svg"
 	},
 	{
 		"id": "vc",
 		"label": "Violoncello",
-		"transposition": "C"
+		"transposition": "C",
+		"section":"strings",
+		"icon":"038-cello.svg"
 	},
 	{
 		"id": "db",
 		"label": "Double Bass",
-		"transposition": "C"
+		"transposition": "C",
+		"section":"strings",
+		"icon":"016-bass.svg"
 	}
 ]
