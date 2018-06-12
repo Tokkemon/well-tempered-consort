@@ -72,7 +72,7 @@ function get_parts_data($type = null, $instruments = true) {
 	//Add the instruments if required
 	if($instruments === true) {
 		foreach($parts_data as &$parts_datum) {
-			foreach($parts_datum as &$parts) {
+			foreach($parts_datum['parts'] as &$parts) {
 				foreach($parts as &$inst) {
 					$inst = $instrument_data[$inst]['label'];
 				}

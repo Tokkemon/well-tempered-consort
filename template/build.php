@@ -2,9 +2,9 @@
 //Build Your Ensemble Block
 
 $instrument_data = get_instruments();
+$parts_data = get_parts_data(null, false);
 $sections = array_unique(array_column($instrument_data, 'section'));
 
-//TODO: Build the ensemble builder here.
 ?>
 <section class="bg-dark text-white">
 	<div class="container text-center">
@@ -30,14 +30,17 @@ $sections = array_unique(array_column($instrument_data, 'section'));
                 return ($value['section'] == $section);
             });
             foreach($section_data as $instrument) {
-                echo '<div class="col-md-1 instrument">';
+                echo '<div class="col-md-1 instrument" data-instrument="' . $instrument['id'] .'">';
                 echo '<img src="' . $site_url . 'img/836800-music-instruments/svg/' . $instrument['icon'] . '" width="100" alt="' . $instrument['label'] .'">';
                 echo $instrument['label'] . ' (' . $instrument['transposition'] . ')';
                 echo '</div>';
             }
             echo '</div>';
-        } ?>
+        }
+        ?>
         <script>
+            var partsData = <?php echo json_encode($parts_data); ?>;
+            var instrumentData = <?php echo json_encode($site_url); ?>;
             jQuery(function() {
                 registerBuildEnsemble("#ensemble_size", ".dropplaces", ".instrument-section");
             });
