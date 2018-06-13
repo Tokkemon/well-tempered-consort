@@ -14,7 +14,7 @@
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Bach's imortal music, now available for any flexible chamber ensemble.</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="<?php echo $site_url . '/build.php'; ?>">Build Your Ensemble</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="<?php echo $site_url . 'build'; ?>">Build Your Ensemble</a>
           </div>
         </div>
       </div>
@@ -202,7 +202,7 @@
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+              <a href="mailto:your-email@welltemperedconsort.com">feedback@welltemperedconsort.com</a>
             </p>
           </div>
         </div>

@@ -7,17 +7,25 @@
     padding: 0;
 
 }
+h6.part-list > span.validation.valid {
+
+}
+
 ul.part-list li.instrument {
     background-color: #f8f8f8;
     color: #0b0b0b;
     list-style: none;
     margin-left: 0;
+    padding: 2px 5px;
     cursor: pointer;
 }
-.selected {
-    background-color: #9b27f8;
+ul.part-list li.instrument.selecting {
+    background-color: #af8af0;
     color: #ffffff;
-
+}
+ul.part-list li.instrument.selected {
+    background-color: #813DF0;
+    color: #ffffff;
 }
 
 div.instrument-section div.instrument img {
@@ -43,3 +51,4 @@ div.dropplaces div.dropplace {
     border: 3px dashed rgba(6, 64, 15, 0.5) !important;
     color: rgba(255, 255, 255, 0.50) !important;
 }
+

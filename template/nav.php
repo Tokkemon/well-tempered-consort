@@ -10,7 +10,7 @@
 		<?php 
 		foreach($menu_pages as $page) { ?>
 			<li class="nav-item">
-			  <a class="nav-link js-scroll-trigger" href="<?php echo $site_url . '/' . $page['link']; ?>"><?php echo $page['title']; ?></a>
+			  <a class="nav-link js-scroll-trigger" href="<?php echo $site_url . $page['link']; ?>"><?php echo $page['title']; ?></a>
 			</li>
 		<?php } ?>
 	  </ul>

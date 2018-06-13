@@ -1,38 +1,51 @@
 //Generic JS stuff for Well-Tempered Consort site
 
 jQuery(function() {
-    jQuery('ul.part-list').find('li').each(function(index, value) {
-        let $listItem = jQuery(value);
-        $listItem.click(function(e) {
-            if($listItem.hasClass('selected')) {
-                $listItem.removeClass('selected');
-            }
-            else {
-                $listItem.addClass('selected');
-            }
-            partsPriceCalc();
-        });
+    jQuery('ul.part-list').selectable({
+        classes: {
+            "ui-selected": "selected",
+            "ui-selecting": "selecting"
+        },
+        stop: validatePartInstList
     });
 });
 
+function validatePartInstList(event, ui) {
+    //
+    console.log('the ui', event);
+    var $validation = $list.prev('h6').find('span.validation');
+    //Check if it's valid
+    var validFlag = false;
+    $list.find('li.instrument').each(function(index, value) {
+        if(jQuery(value).hasClass("selected")) {
+            validFlag = true;
+        }
+    });
+    if(validFlag === true) {
+        $validation.addClass('valid');
+    }
+    else {
+        $validation.removeClass('valid');
+    }
+}
 
 function getPartsSelected() {
     var partsSelected = {};
     //For each "piece", i.e. the prelude and fugue.
     jQuery('ul.part-list').parent('div').each(function(pieceIndex, pieceValue) {
-        let $pieceValue = jQuery(pieceValue);
+        var $pieceValue = jQuery(pieceValue);
         if(typeof partsSelected[pieceIndex] === "undefined") {
             partsSelected[pieceIndex] = {};
         }
         //Find each respective part list
         $pieceValue.find('ul.part-list').each(function(listIndex, listValue) {
-            let $listValue = jQuery(listValue);
+            var $listValue = jQuery(listValue);
             if(typeof partsSelected[pieceIndex][listIndex] === "undefined") {
                 partsSelected[pieceIndex][listIndex] = [];
             }
             $listValue.find('li').each(function(index, value) {
-                let $listItem = jQuery(value);
-                let partNum = $listItem.parents('ul').attr('data-part');
+                var $listItem = jQuery(value);
+                var partNum = $listItem.parents('ul').attr('data-part');
                 if($listItem.hasClass('selected')) {
                     partsSelected[pieceIndex][listIndex].push($listItem.text());
                 }
@@ -62,6 +75,8 @@ function checkPartsSelectedValid(partsSelected) {
 function partsPriceCalc() {
     var partsSelected = getPartsSelected();
     var foundErrors = checkPartsSelectedValid(partsSelected);
+    console.log('the found errors', foundErrors);
+
     //Do stuff with the errors that are found
 
 

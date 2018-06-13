@@ -4,11 +4,19 @@
 $instrument_data = get_instruments();
 $parts_data = get_parts_data(null, false);
 $sections = array_unique(array_column($instrument_data, 'section'));
+$ensembles = get_ensembles();
 
 ?>
 <section class="bg-dark text-white">
 	<div class="container text-center">
 		<h2 class="mb-4">Build Your Ensemble</h2>
+        <label for="common_ensemble">Select A Common Ensemble</label>
+        <select id="common_ensemble">
+            <option value=""></option>
+            <?php foreach(array_column($ensembles, 'label') as $ensemble) {
+                echo '<option value="' . $ensemble . '">' . $ensemble . '</option>';
+            } ?>
+        </select>
         <label for="ensemble_size">Ensemble Size</label>
         <select id="ensemble_size">
             <option value="2">Duet</option>

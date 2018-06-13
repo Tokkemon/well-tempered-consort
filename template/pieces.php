@@ -20,10 +20,10 @@ if(isset($page_params[0]) && is_numeric($page_params[0]) && ((846 <= $page_param
         </div>
         <div class="row text-left text-white">
             <div class="col-md-4">
-                <h5 class>Prelude: <?php echo $piece['prelude']['type']; ?></h5>
+                <h5 class="piece-list">Prelude: <?php echo $piece['prelude']['type']; ?></h5>
                 <?php foreach($prelude_parts as $part_num => $part) {
                     //Parts selectors
-                    echo '<h6>Part ' . $part_num . '</h6>';
+                    echo '<h6 class="part-list">Part ' . $part_num . '<span class="validation"></span></h6>';
                     echo '<ul class="part-list" data-part="' . $part_num . '">';
                     foreach($part as $part_inst) {
                         echo '<li class="instrument">' . $part_inst . '</li>';
@@ -66,7 +66,7 @@ else {
 					<th>Name</th>
 					<th>Key</th>
 					<th>Parts</th>
-					<th>Incipit</th>
+					<th>Incipit <span> Hide</span></th>
 				</tr>
 			</thead>
 			<tbody>

@@ -19,12 +19,18 @@ function debug_print($str, $line = 1, $dump = 0, $third = 0, $fourth = 0) {
 	echo $final_str;
 }
 
+function load_json_data_file($file_name) {
+    global $site_path;
+    //TODO add the json extension by default???
+    $json_file = $site_path . 'data/' . $file_name;
+    $json = file_get_contents($json_file);
+    $data = json_decode($json, true);
+    return $data;
+}
+
 //TODO: All of these should save the json once as globals.
 function get_pieces_data($bwv_number = null) {
-	global $site_path;
-	$json_file = $site_path . 'data/pieces.json';
-	$json = file_get_contents($json_file);
-	$pieces = json_decode($json, true);
+    $pieces = load_json_data_file('pieces.json');
 	//If a bwv number is provided, use that to filter out the single piece.
 	$book = null;
 	if($bwv_number !== null) {
@@ -46,10 +52,7 @@ function get_pieces_data($bwv_number = null) {
 
 
 function get_parts_data($type = null, $instruments = true) {
-	global $site_path;
-	$json_file = $site_path . 'data/parts.json';
-	$json = file_get_contents($json_file);
-	$parts_data = json_decode($json, true);
+    $parts_data = load_json_data_file('parts.json');
 	//get the instrument data if that's requested
 	$instrument_data = get_instruments();
 	//Reorganize so the ids are the top level bits.
@@ -83,10 +86,7 @@ function get_parts_data($type = null, $instruments = true) {
 }
 
 function get_instruments($id = null) {
-	global $site_path;
-	$json_file = $site_path . 'data/instruments.json';
-	$json = file_get_contents($json_file);
-	$instrument_data = json_decode($json, true);
+    $instrument_data = load_json_data_file('instruments.json');
 	if($id !== null) {
 		$instrument = array_values(array_filter($instrument_data, function($value) use ($id) {
 			return ($value['id'] == strtolower($id));
@@ -94,4 +94,9 @@ function get_instruments($id = null) {
 		return $instrument;
 	}
 	return $instrument_data;
+}
+
+function get_ensembles($raw = false) {
+    $ensemble_data = load_json_data_file('ensembles.json');
+    return $ensemble_data;
 }

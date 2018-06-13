@@ -34,7 +34,7 @@
     <link href="<?php echo $site_url; ?>vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="<?php echo $site_url; ?>css/creative.min.css" rel="stylesheet">
+    <link href="<?php echo $site_url; ?>css/creative.css" rel="stylesheet">
 
     <!-- Custom styles for this site -->
     <link href="<?php echo $site_url; ?>css/styles.css" rel="stylesheet">
