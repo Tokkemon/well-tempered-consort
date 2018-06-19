@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #444;
+}
+div.wrap {
+    width: 1000px;
+    background-color: #fff;
+    min-height: 93vh;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+footer {
+    margin: 10px auto;
+    font-size: 0.8em;
+    text-align: center;
+    color: #fff;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #444;
+    padding: 5px;
+}
+table tr td {
+    border: 1px solid #555;
+    padding: 5px;
+}
+table#book_1 tbody tr:nth-child(4n+1),
+table#book_2 tbody tr:nth-child(4n+1) {
+    background-color: #d5d5d5;
+}
+table#book_1 tbody tr:nth-child(4n+2),
+table#book_2 tbody tr:nth-child(4n+2) {
+    background-color: #d5d5d5;
+    border-bottom: 2px solid black;
+}
+table#book_1 tbody tr:nth-child(4n+4),
+table#book_2 tbody tr:nth-child(4n+4) {
+    border-bottom: 2px solid black;
+}
+div.bottom-body {
+    background-color: #e4e4e4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+}
+span.divided-note {
+    font-style: italic;
+    font-size: 80%;
+}
+/* Definition Lists */
+dt {
+    float: left;
+    margin-right: 5px;
+    max-width: 20%;
+    font-weight: bold;
+}
+dd {
+    margin-left: 10%;
+}
+dd::after {
+    content: " ";
+    display: block;
+    clear: left;
+}
+
+/* Build Your Ensemble View */
+ul#instrument_list {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+ul#instrument_list li {
+    border: 3px solid crimson;
+    background-color: tan;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 1px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+ul.bucket_wrapper {
+    list-style: none;
+}
+li.part_bucket {
+    margin: 2px;
+    padding: 2px;
+    background-color: aliceblue;
+    border: 2px solid #444;
+    height: 175px;
+}
+div.part_bucket_disabled {
+    background-color: #646464;
+}
+
+/* Choosing Formats / Parts Panels */
+div.panel-wrapper {
+    width: 100%;
+    display: block;
+    float: left;
+}
+div.options-panel {
+    width: 65%;
+    display: block;
+    float: left;
+}
+div.price-panel {
+    max-width: 30%;
+    display: block;
+    float: right;
+}
+ul.format-list {
+    font-size: 1.3em;
+    list-style: none;
+    color: #0b58a2;
+}
+ul.format-list li input[type="checkbox"] {
+    /*TODO: Replace the checks with big friendly green ones.*/
+}

@@ -35,7 +35,7 @@ if(isset($page_params[0]) && is_numeric($page_params[0]) && ((846 <= $page_param
                 <h5 class>Fugue: <?php echo $piece['fugue']['type']; ?></h5>
                 <?php foreach($fugue_parts as $part_num => $part) {
                     //Parts selectors
-                    echo '<h6>Part ' . $part_num . '</h6>';
+                    echo '<h6 class="part-list">Part ' . $part_num . '<span class="validation"></span></h6>';
                     echo '<ul class="part-list" data-part="' . $part_num . '">';
                     foreach($part as $part_inst) {
                         echo '<li class="instrument">' . $part_inst . '</li>';
@@ -44,7 +44,8 @@ if(isset($page_params[0]) && is_numeric($page_params[0]) && ((846 <= $page_param
                 } ?>
             </div>
             <div class="col-md-4">
-                <span class="price">Price: </span>
+                Price:&nbsp;<span id="price" class="price"></span><br />
+                <button type="button" class="btn btn-success">Buy Now</button>
             </div>
 		</div>
 		<a href="<?php echo $site_url; ?>pieces">Back to Pieces</a>
@@ -64,9 +65,9 @@ else {
 				<tr>
 					<th>BWV</th>
 					<th>Name</th>
-					<th>Key</th>
-					<th>Parts</th>
-					<th>Incipit <span> Hide</span></th>
+					<th>Prelude</th>
+					<th>Fugue</th>
+					<th>Incipit</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -75,15 +76,11 @@ else {
 				$incipit_link = $site_url . 'incipits/' . $piece['bwv'] . '.svg';
 			?>
 				<tr>
-					<td rowspan="2"><a href="<?php echo $piece_link; ?>">BWV<?php echo $piece['bwv']; ?></a></td>
-					<td rowspan="2"><?php echo $piece['key']; ?></td>
-					<td>Prelude</td>
+					<td><a href="<?php echo $piece_link; ?>">BWV<?php echo $piece['bwv']; ?></a></td>
+					<td><?php echo $piece['key']; ?></td>
 					<td><?php echo $piece['prelude']['type']; ?></td>
-					<td rowspan="2"><img src="<?php echo $incipit_link; ?>" alt="incipit"></td>
-				</tr>
-				<tr>
-					<td>Fugue</td>
 					<td><?php echo $piece['fugue']['type']; ?></td>
+					<td><img class="incipit" src="<?php echo $incipit_link; ?>" alt="incipit"></td>
 				</tr>
 			<?php } ?>
 			</tbody>
@@ -97,6 +94,3 @@ else {
 
 echo '</section>';
 echo '<script>partsPriceCalc();</script>';
-
-debug_print($page_request);
-debug_print($page_params);

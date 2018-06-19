@@ -32,7 +32,7 @@
 				<li>Pick your pieces</li>
 				<li>Checkout</li>
 			</ol>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="build.html">Get Started!</a>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="<?php echo $site_url . 'build'; ?>">Get Started!</a>
           </div>
         </div>
       </div>

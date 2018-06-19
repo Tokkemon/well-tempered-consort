@@ -51,4 +51,22 @@ div.dropplaces div.dropplace {
     border: 3px dashed rgba(6, 64, 15, 0.5) !important;
     color: rgba(255, 255, 255, 0.50) !important;
 }
+span.validation.valid {
+    color: #00CC00;
+}
+span.validation.valid::before {
+    content: " Valid!";
+}
+span.validation.invalid {
+    color: #a80000;
+}
+span.validation.invalid::before {
+    content: " Invalid!";
+}
+
+/* Incipit stylings */
+img.incipit {
+    background-color: #fff;
+    max-height: 200px;
+}
 

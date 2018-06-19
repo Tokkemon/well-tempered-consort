@@ -6,13 +6,19 @@ jQuery(function() {
             "ui-selected": "selected",
             "ui-selecting": "selecting"
         },
-        stop: validatePartInstList
+        stop: function(event, ui) {
+            //validate each list.
+            validatePartInstList(event, ui);
+            //calculate the price of the selected.
+            partsPriceCalc();
+        }
     });
 });
 
 function validatePartInstList(event, ui) {
-    //
     console.log('the ui', event);
+    var $list = jQuery(event.target);
+    console.log($list);
     var $validation = $list.prev('h6').find('span.validation');
     //Check if it's valid
     var validFlag = false;
@@ -74,15 +80,31 @@ function checkPartsSelectedValid(partsSelected) {
 //Function to calculate the prices required based on the selected parts
 function partsPriceCalc() {
     var partsSelected = getPartsSelected();
-    var foundErrors = checkPartsSelectedValid(partsSelected);
-    console.log('the found errors', foundErrors);
+    console.log('the parts selected', partsSelected);
+    var quantitySelected = 0;
+    jQuery.each(partsSelected, function(index, value) {
+        jQuery.each(value, function(ind, val) {
+            quantitySelected += val.length;
+        });
+    });
 
-    //Do stuff with the errors that are found
+    // var foundErrors = checkPartsSelectedValid(partsSelected);
+    // console.log('the found errors', foundErrors);
 
+    console.log('the quantity selected', quantitySelected);
+    var partPrice = 295;
+    var price = quantitySelected * partPrice;
+    price = price.toString();
+    console.log('the price', price);
 
-    //There should be at least one from every part.
+    //Add the price to the DOM
+    var priceDollars = price.substr(0, price.length - 2);
+    var priceCents = price.substr(price.length -2, 2);
+    var priceStr = '$' + (priceDollars === '' ? '0' : priceDollars) + '.' + (priceCents.length === 1 ? '0' + priceCents : priceCents);
+    jQuery("#price").html(priceStr);
 
-    //Do some math here.
+    //TODO: Add stuff for volume discounts etc.
+
 
 }
 

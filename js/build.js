@@ -129,13 +129,12 @@ function registerBuildEnsemble(sizeSelector, dropSelector, instrumentSelector) {
         $droppable.find('div.dropplace').each(function(index, value) {
             var $box = jQuery(value);
             if(index + 1 > size) {
-                $box.addClass('faded');
-                // $box.droppable("disable");
+                $box.hide("slide", { direction: "left" }, 500);
             }
             else {
-                $box.removeClass('faded');
-                // $box.droppable("enable");
+                $box.show("slide", { direction: "left" }, 500);
             }
         });
+        //Make the boxes fit.
     });
 }

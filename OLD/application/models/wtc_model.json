@@ -1,0 +1,855 @@
+{
+	"pieces":{
+		"Book I":[
+			{
+				"key":"C major",
+				"kind":"prelude",
+				"bwv":846,
+				"partCount":3
+			},
+			{
+				"key":"C major",
+				"kind":"fugue",
+				"bwv":846,
+				"partCount":4
+			},
+			{
+				"key":"C minor",
+				"kind":"prelude",
+				"bwv":847,
+				"partCount":4
+			},
+			{
+				"key":"C minor",
+				"kind":"fugue",
+				"bwv":847,
+				"partCount":3
+			},
+			{
+				"key":"Db major",
+				"kind":"prelude",
+				"bwv":848,
+				"partCount":3
+			},
+			{
+				"key":"Db major",
+				"kind":"fugue",
+				"bwv":848,
+				"partCount":3
+			},
+			{
+				"key":"C# minor",
+				"kind":"prelude",
+				"bwv":849,
+				"partCount":5
+			},
+			{
+				"key":"C# minor",
+				"kind":"fugue",
+				"bwv":849,
+				"partCount":5
+			},
+			{
+				"key":"D major",
+				"kind":"prelude",
+				"bwv":850,
+				"partCount":4
+			},
+			{
+				"key":"D major",
+				"kind":"fugue",
+				"bwv":850,
+				"partCount":4
+			},
+			{
+				"key":"D minor",
+				"kind":"prelude",
+				"bwv":851,
+				"partCount":3
+			},
+			{
+				"key":"D minor",
+				"kind":"fugue",
+				"bwv":851,
+				"partCount":3
+			},
+			{
+				"key":"Eb major",
+				"kind":"prelude",
+				"bwv":852,
+				"partCount":4
+			},
+			{
+				"key":"Eb major",
+				"kind":"fugue",
+				"bwv":852,
+				"partCount":3
+			},
+			{
+				"key":"Eb minor",
+				"kind":"prelude",
+				"bwv":853,
+				"partCount":4
+			},
+			{
+				"key":"Eb minor",
+				"kind":"fugue",
+				"bwv":853,
+				"partCount":3
+			},
+			{
+				"key":"E major",
+				"kind":"prelude",
+				"bwv":854,
+				"partCount":4
+			},
+			{
+				"key":"E major",
+				"kind":"fugue",
+				"bwv":854,
+				"partCount":3
+			},
+			{
+				"key":"E minor",
+				"kind":"prelude",
+				"bwv":855,
+				"partCount":4
+			},
+			{
+				"key":"E minor",
+				"kind":"fugue",
+				"bwv":855,
+				"partCount":2
+			},
+			{
+				"key":"F major",
+				"kind":"prelude",
+				"bwv":856,
+				"partCount":2
+			},
+			{
+				"key":"F major",
+				"kind":"fugue",
+				"bwv":856,
+				"partCount":3
+			},
+			{
+				"key":"F minor",
+				"kind":"prelude",
+				"bwv":857,
+				"partCount":4
+			},
+			{
+				"key":"F minor",
+				"kind":"fugue",
+				"bwv":857,
+				"partCount":4
+			},
+			{
+				"key":"F# major",
+				"kind":"prelude",
+				"bwv":858,
+				"partCount":2
+			},
+			{
+				"key":"F# major",
+				"kind":"fugue",
+				"bwv":858,
+				"partCount":3
+			},
+			{
+				"key":"F# minor",
+				"kind":"prelude",
+				"bwv":859,
+				"partCount":4
+			},
+			{
+				"key":"F# minor",
+				"kind":"fugue",
+				"bwv":859,
+				"partCount":4
+			},
+			{
+				"key":"G major",
+				"kind":"prelude",
+				"bwv":860,
+				"partCount":3
+			},
+			{
+				"key":"G major",
+				"kind":"fugue",
+				"bwv":860,
+				"partCount":3
+			},
+			{
+				"key":"G minor",
+				"kind":"prelude",
+				"bwv":861,
+				"partCount":4
+			},
+			{
+				"key":"G minor",
+				"kind":"fugue",
+				"bwv":861,
+				"partCount":4
+			},
+			{
+				"key":"Ab major",
+				"kind":"prelude",
+				"bwv":862,
+				"partCount":4
+			},
+			{
+				"key":"Ab major",
+				"kind":"fugue",
+				"bwv":862,
+				"partCount":4
+			},
+			{
+				"key":"G# minor",
+				"kind":"prelude",
+				"bwv":863,
+				"partCount":4
+			},
+			{
+				"key":"G# minor",
+				"kind":"fugue",
+				"bwv":863,
+				"partCount":4
+			},
+			{
+				"key":"A major",
+				"kind":"prelude",
+				"bwv":864,
+				"partCount":3
+			},
+			{
+				"key":"A major",
+				"kind":"fugue",
+				"bwv":864,
+				"partCount":3
+			},
+			{
+				"key":"A minor",
+				"kind":"prelude",
+				"bwv":865,
+				"partCount":4
+			},
+			{
+				"key":"A minor",
+				"kind":"fugue",
+				"bwv":865,
+				"partCount":4
+			},
+			{
+				"key":"Bb major",
+				"kind":"prelude",
+				"bwv":866,
+				"partCount":4
+			},
+			{
+				"key":"Bb major",
+				"kind":"fugue",
+				"bwv":866,
+				"partCount":3
+			},
+			{
+				"key":"Bb minor",
+				"kind":"prelude",
+				"bwv":867,
+				"partCount":5
+			},
+			{
+				"key":"Bb minor",
+				"kind":"fugue",
+				"bwv":867,
+				"partCount":5
+			},
+			{
+				"key":"B major",
+				"kind":"prelude",
+				"bwv":868,
+				"partCount":4
+			},
+			{
+				"key":"B major",
+				"kind":"fugue",
+				"bwv":868,
+				"partCount":4
+			},
+			{
+				"key":"B minor",
+				"kind":"prelude",
+				"bwv":869,
+				"partCount":3
+			},
+			{
+				"key":"B minor",
+				"kind":"fugue",
+				"bwv":869,
+				"partCount":4
+			}
+		],
+		"Book II":[
+			{
+				"key":"C major",
+				"kind":"prelude",
+				"bwv":870,
+				"partCount":5
+			},
+			{
+				"key":"C major",
+				"kind":"fugue",
+				"bwv":870,
+				"partCount":3
+			},
+			{
+				"key":"C minor",
+				"kind":"prelude",
+				"bwv":871,
+				"partCount":4
+			},
+			{
+				"key":"C minor",
+				"kind":"fugue",
+				"bwv":871,
+				"partCount":4
+			},
+			{
+				"key":"Db major",
+				"kind":"prelude",
+				"bwv":872,
+				"partCount":4
+			},
+			{
+				"key":"Db major",
+				"kind":"fugue",
+				"bwv":872,
+				"partCount":3
+			},
+			{
+				"key":"C# minor",
+				"kind":"prelude",
+				"bwv":873,
+				"partCount":3
+			},
+			{
+				"key":"C# minor",
+				"kind":"fugue",
+				"bwv":873,
+				"partCount":3
+			},
+			{
+				"key":"D major",
+				"kind":"prelude",
+				"bwv":874,
+				"partCount":4
+			},
+			{
+				"key":"D major",
+				"kind":"fugue",
+				"bwv":874,
+				"partCount":4
+			},
+			{
+				"key":"D minor",
+				"kind":"prelude",
+				"bwv":875,
+				"partCount":2
+			},
+			{
+				"key":"D minor",
+				"kind":"fugue",
+				"bwv":875,
+				"partCount":3
+			},
+			{
+				"key":"Eb major",
+				"kind":"prelude",
+				"bwv":876,
+				"partCount":4,
+				"partDiv":{
+					"2":true,
+					"3":true
+				},
+				"incipit": "2_EbMajor_prelude.svg"
+			},
+			{
+				"key":"Eb major",
+				"kind":"fugue",
+				"bwv":876,
+				"partCount":4
+			},
+			{
+				"key":"Eb minor",
+				"kind":"prelude",
+				"bwv":877,
+				"partCount":2
+			},
+			{
+				"key":"Eb minor",
+				"kind":"fugue",
+				"bwv":877,
+				"partCount":4
+			},
+			{
+				"key":"E major",
+				"kind":"prelude",
+				"bwv":878,
+				"partCount":4
+			},
+			{
+				"key":"E major",
+				"kind":"fugue",
+				"bwv":878,
+				"partCount":4
+			},
+			{
+				"key":"E minor",
+				"kind":"prelude",
+				"bwv":879,
+				"partCount":2
+			},
+			{
+				"key":"E minor",
+				"kind":"fugue",
+				"bwv":879,
+				"partCount":3
+			},
+			{
+				"key":"F major",
+				"kind":"prelude",
+				"bwv":880,
+				"partCount":5
+			},
+			{
+				"key":"F major",
+				"kind":"fugue",
+				"bwv":880,
+				"partCount":3
+			},
+			{
+				"key":"F minor",
+				"kind":"prelude",
+				"bwv":881,
+				"partCount":3
+			},
+			{
+				"key":"F minor",
+				"kind":"fugue",
+				"bwv":881,
+				"partCount":3
+			},
+			{
+				"key":"F# major",
+				"kind":"prelude",
+				"bwv":882,
+				"partCount":2
+			},
+			{
+				"key":"F# major",
+				"kind":"fugue",
+				"bwv":882,
+				"partCount":3
+			},
+			{
+				"key":"F# minor",
+				"kind":"prelude",
+				"bwv":883,
+				"partCount":3
+			},
+			{
+				"key":"F# minor",
+				"kind":"fugue",
+				"bwv":883,
+				"partCount":3
+			},
+			{
+				"key":"G major",
+				"kind":"prelude",
+				"bwv":884,
+				"partCount":3
+			},
+			{
+				"key":"G major",
+				"kind":"fugue",
+				"bwv":884,
+				"partCount":3
+			},
+			{
+				"key":"G minor",
+				"kind":"prelude",
+				"bwv":885,
+				"partCount":4
+			},
+			{
+				"key":"G minor",
+				"kind":"fugue",
+				"bwv":885,
+				"partCount":4
+			},
+			{
+				"key":"Ab major",
+				"kind":"prelude",
+				"bwv":886,
+				"partCount":4
+			},
+			{
+				"key":"Ab major",
+				"kind":"fugue",
+				"bwv":886,
+				"partCount":4
+			},
+			{
+				"key":"G# minor",
+				"kind":"prelude",
+				"bwv":887,
+				"partCount":4
+			},
+			{
+				"key":"G# minor",
+				"kind":"fugue",
+				"bwv":887,
+				"partCount":3
+			},
+			{
+				"key":"A major",
+				"kind":"prelude",
+				"bwv":888,
+				"partCount":3
+			},
+			{
+				"key":"A major",
+				"kind":"fugue",
+				"bwv":888,
+				"partCount":3
+			},
+			{
+				"key":"A minor",
+				"kind":"prelude",
+				"bwv":889,
+				"partCount":2
+			},
+			{
+				"key":"A minor",
+				"kind":"fugue",
+				"bwv":889,
+				"partCount":3
+			},
+			{
+				"key":"Bb major",
+				"kind":"prelude",
+				"bwv":890,
+				"partCount":4
+			},
+			{
+				"key":"Bb major",
+				"kind":"fugue",
+				"bwv":890,
+				"partCount":3
+			},
+			{
+				"key":"Bb minor",
+				"kind":"prelude",
+				"bwv":891,
+				"partCount":3
+			},
+			{
+				"key":"Bb minor",
+				"kind":"fugue",
+				"bwv":891,
+				"partCount":4
+			},
+			{
+				"key":"B major",
+				"kind":"prelude",
+				"bwv":892,
+				"partCount":3
+			},
+			{
+				"key":"B major",
+				"kind":"fugue",
+				"bwv":892,
+				"partCount":4
+			},
+			{
+				"key":"B minor",
+				"kind":"prelude",
+				"bwv":893,
+				"partCount":3
+			},
+			{
+				"key":"B minor",
+				"kind":"fugue",
+				"bwv":893,
+				"partCount":3
+			}
+		]
+	},
+	"instrumentMatrix":{
+		"2":{
+			"1":{
+				"C treble":[
+					"Flute",
+					"Oboe",
+					"Violin"
+				],
+				"Bb treble":[
+					"Clarinet in Bb",
+					"Trumpet in Bb"
+				],
+				"Eb treble":[
+					"Alto Saxophone in Eb"
+				]
+			},
+			"2":{
+				"F treble":[
+					"Horn in F"
+				],
+				"Eb treble":[
+					"Alto Saxophone in Eb"
+				],
+				"C alto":[
+					"Viola"
+				],
+				"Bb bari":[
+					"Tenor Saxophone in Bb",
+					"Bass Clarinet in Bb",
+					"Euphonium T.C."
+				],
+				"C bass":[
+					"Bassoon",
+					"Trombone",
+					"Euphonium",
+					"Tuba",
+					"Violoncello",
+					"Double Bass"
+				],
+				"Eb bari":[
+					"Baritone Saxophone in Eb"
+				]
+			}
+		},
+		"3":{
+			"1":{
+				"C treble":[
+					"Flute",
+					"Oboe",
+					"Violin"
+				],
+				"Bb treble":[
+					"Clarinet in Bb",
+					"Trumpet in Bb"
+				],
+				"Eb treble":[
+					"Alto Saxophone in Eb"
+				]
+			},
+			"2":{
+				"Bb treble":[
+					"Clarinet in Bb",
+					"Trumpet in Bb"
+				],
+				"F treble":[
+					"Horn in F"
+				],
+				"Eb treble":[
+					"Alto Saxophone in Eb"
+				],
+				"C alto":[
+					"Viola"
+				],
+				"Bb bari":[
+					"Tenor Saxophone in Bb",
+					"Euphonium T.C."
+				],
+				"C bass":[
+					"Bassoon",
+					"Trombone",
+					"Euphonium"
+				]
+			},
+			"3":{
+				"Bb bari":[
+					"Tenor Saxophone in Bb",
+					"Bass Clarinet in Bb",
+					"Euphonium T.C."
+				],
+				"C bass":[
+					"Bassoon",
+					"Trombone",
+					"Euphonium",
+					"Tuba",
+					"Violoncello",
+					"Double Bass"
+				],
+				"Eb bari":[
+					"Baritone Saxophone in Eb"
+				]
+			}
+		},
+		"4":{
+			"1":{
+				"C treble":[
+					"Flute",
+					"Oboe",
+					"Violin"
+				],
+				"Bb treble":[
+					"Clarinet in Bb",
+					"Trumpet in Bb"
+				],
+				"Eb treble":[
+					"Alto Saxophone in Eb"
+				]
+			},
+			"2":{
+				"C treble":[
+					"Flute",
+					"Oboe",
+					"Violin"
+				],
+				"Bb treble":[
+					"Clarinet in Bb",
+					"Trumpet in Bb"
+				],
+				"F treble":[
+					"Horn in F"
+				],
+				"Eb treble":[
+					"Alto Saxophone in Eb"
+				]
+			},
+			"3":{
+				"F treble":[
+					"Horn in F"
+				],
+				"C alto":[
+					"Viola"
+				],
+				"Bb bari":[
+					"Tenor Saxophone in Bb",
+					"Bass Clarinet in Bb",
+					"Euphonium T.C."
+				],
+				"C bass":[
+					"Bassoon",
+					"Trombone",
+					"Euphonium"
+				]
+			},
+			"4":{
+				"Bb bari":[
+					"Tenor Saxophone in Bb",
+					"Bass Clarinet in Bb",
+					"Euphonium T.C."
+				],
+				"C bass":[
+					"Bassoon",
+					"Trombone",
+					"Euphonium",
+					"Tuba",
+					"Violoncello",
+					"Double Bass"
+				],
+				"Eb bari":[
+					"Baritone Saxophone in Eb"
+				]
+			}
+		},
+		"5":{
+			"1":{
+				"C treble":[
+					"Flute",
+					"Oboe",
+					"Violin"
+				],
+				"Bb treble":[
+					"Clarinet in Bb",
+					"Trumpet in Bb"
+				],
+				"Eb treble":[
+					"Alto Saxophone in Eb"
+				]
+			},
+			"2":{
+				"C treble":[
+					"Flute",
+					"Oboe",
+					"Violin"
+				],
+				"Bb treble":[
+					"Clarinet in Bb",
+					"Trumpet in Bb"
+				],
+				"F treble":[
+					"Horn in F"
+				],
+				"Eb treble":[
+					"Alto Saxophone in Eb"
+				],
+				"C alto":[
+					"Viola"
+				]
+			},
+			"3":{
+				"Bb treble":[
+					"Clarinet in Bb"
+				],
+				"F treble":[
+					"Horn in F"
+				],
+				"Eb treble":[
+					"Alto Saxophone in Eb"
+				],
+				"C alto":[
+					"Viola"
+				],
+				"Bb bari":[
+					"Tenor Saxophone in Bb",
+					"Euphonium T.C."
+				],
+				"C bass":[
+					"Bassoon",
+					"Trombone",
+					"Euphonium"
+				]
+			},
+			"4":{
+				"Bb bari":[
+					"Tenor Saxophone in Bb",
+					"Bass Clarinet in Bb",
+					"Euphonium T.C."
+				],
+				"C bass":[
+					"Bassoon",
+					"Trombone",
+					"Euphonium",
+					"Tuba",
+					"Violoncello"
+				],
+				"Eb bari":[
+					"Baritone Saxophone in Eb"
+				]
+			},
+			"5":{
+				"Bb bari":[
+					"Tenor Saxophone in Bb",
+					"Bass Clarinet in Bb",
+					"Euphonium T.C. in Bb"
+				],
+				"C bass":[
+					"Bassoon",
+					"Trombone",
+					"Euphonium",
+					"Tuba",
+					"Violoncello",
+					"Double Bass"
+				],
+				"Eb bari":[
+					"Baritone Saxophone in Eb"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,92 @@
+[
+	{
+		"id":"flute",
+		"name":"Flute",
+		"key":"C treble"
+	},
+	{
+		"id":"oboe",
+		"name":"Oboe",
+		"key":"C treble"
+	},
+	{
+		"id":"violin",
+		"name":"Violin",
+		"key":"C treble"
+	},
+	{
+		"id":"clarinet",
+		"name":"Clarinet in Bb",
+		"key":"Bb treble"
+	},
+	{
+		"id":"trumpet",
+		"name":"Trumpet in Bb",
+		"key":"Bb treble"
+	},
+	{
+		"id":"horn",
+		"name":"Horn in F",
+		"key":"F treble"
+	},
+	{
+		"id":"alto_saxophone",
+		"name":"Alto Saxophone in Eb",
+		"key":"Eb treble"
+	},
+	{
+		"id":"viola",
+		"name":"Viola",
+		"key":"C alto"
+	},
+	{
+		"id":"tenor_saxophone",
+		"name":"Tenor Saxophone in Bb",
+		"key":"Bb bari"
+	},
+	{
+		"id":"bass_clarinet",
+		"name":"Bass Clarinet in Bb",
+		"key":"Bb bari"
+	},
+	{
+		"id":"euphonium_tc",
+		"name":"Euphonium T.C. in Bb",
+		"key":"Bb bari"
+	},
+	{
+		"id":"bassoon",
+		"name":"Bassoon",
+		"key":"C bass"
+	},
+	{
+		"id":"trombone",
+		"name":"Trombone",
+		"key":"C bass"
+	},
+	{
+		"id":"euphonium",
+		"name":"Euphonium",
+		"key":"C bass"
+	},
+	{
+		"id":"tuba",
+		"name":"Tuba",
+		"key":"C bass"
+	},
+	{
+		"id":"violoncello",
+		"name":"Violoncello",
+		"key":"C bass"
+	},
+	{
+		"id":"double_bass",
+		"name":"Double Bass",
+		"key":"C bass"
+	},
+	{
+		"id":"baritone_saxophone",
+		"name":"Baritone Saxophone in Eb",
+		"key":"Eb bari"
+	}
+]

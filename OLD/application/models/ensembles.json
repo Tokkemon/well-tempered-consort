@@ -1,0 +1,53 @@
+[
+	{
+		"name":"string quartet",
+		"instruments":[
+			"violin",
+			"violin",
+			"viola",
+			"violoncello"
+		]
+	},
+	{
+		"name":"string orchestra",
+		"instruments":[
+			"violin",
+			"violin",
+			"viola",
+			"violoncello",
+			"double bass"
+		]
+	},
+	{
+		"name":"wind quintet",
+		"instruments":[
+			"flute",
+			"oboe",
+			"clarinet",
+			"horn",
+			"bassoon"
+		]
+	},
+	{
+		"name":"saxophone quartet",
+		"instruments":[
+			"alto saxophone",
+			"alto saxophone",
+			"tenor saxophone",
+			"baritone saxophone"
+		]
+	},
+	{
+		"name":"brass quintet",
+		"instruments":[
+			"trumpet",
+			"trumpet",
+			"horn",
+			"trombone",
+			"tuba"
+		]
+	}
+
+
+
+]
